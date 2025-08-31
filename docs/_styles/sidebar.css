@@ -1,0 +1,134 @@
+@media (min-width: 768px) {
+ button.sidebar-toggle {
+  display: none;
+ }
+}
+
+aside.sidebar {
+ padding: 5px 15px;
+ background: hsl(208, 21%, 12%);
+ border-right: 1px solid rgba(255, 255, 255, .1);
+ user-select: none;
+}
+
+aside.sidebar a.app-name-link img {
+ width: 150px;
+}
+
+aside.sidebar div.sidebar-nav ul {
+ display: flex;
+ flex-direction: column;
+ row-gap: 2px;
+ font-size: .9em;
+}
+
+aside.sidebar div.sidebar-nav ul li {
+ position: relative;
+ border-radius: 5px;
+ padding: 5px 8px;
+ width: 100%;
+ pointer-events: none;
+}
+
+aside.sidebar div.sidebar-nav ul li:hover {
+ background: rgba(117, 193, 255, 0.05);
+}
+aside.sidebar div.sidebar-nav ul li:has(ul.app-sub-sidebar li.active):hover {
+ background: transparent;
+}
+aside.sidebar div.sidebar-nav ul li.active {
+ background: rgba(143, 195, 255, 0.1);
+}
+
+aside.sidebar div.sidebar-nav ul li>a {
+ border: none;
+ padding: 0 !important;
+ background: none !important;
+ width: 100%;
+ pointer-events: auto;
+ text-decoration: none;
+ color: rgba(255, 255, 255, .75);
+ font-weight: 500;
+}
+
+aside.sidebar div.sidebar-nav ul li.active>a {
+ font-weight: 700;
+  color: rgb(169, 209, 255);
+}
+
+aside.sidebar div.sidebar-nav ul li ul.app-sub-sidebar {
+ border-left: 2px solid rgba(255, 255, 255, .1);
+ margin-left: 0;
+ padding-left: 10px;
+}
+
+aside.sidebar div.sidebar-nav ul li ul.app-sub-sidebar li {
+ font-size: 1.05em;
+}
+
+aside.sidebar div.sidebar-nav ul li>a[title="Back"] {
+ font-size: .8em;
+ font-weight: 600;
+}
+aside.sidebar div.sidebar-nav ul li>a[title="Back"]::before {
+ content: "";
+ background: url("/_media/icons/arrow.png") 0 0 no-repeat;
+ background-size: contain;
+ transform: rotate(180deg) translateY(-3.5px);
+ min-width: 15px;
+ min-height: 15px;
+ max-width: 15px;
+ max-height: 15px;
+}
+/* All images without alt are heading images that do not need to be displayed in the sidebar */
+aside.sidebar img[alt=""] {
+ display: none;
+}
+
+aside.sidebar img.step {
+ display: none;
+}
+
+aside.sidebar span.number-replacement {
+ display: inline;
+}
+
+/** Arrows **/
+
+aside.sidebar div.sidebar-nav ul li>a[title="GUIDE"]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after,
+aside.sidebar div.sidebar-nav ul li>a[title=""]::after {
+ position: absolute;
+ right: 0;
+ top: 50%;
+ transform: translateY(-50%);
+ content: "";
+ background: url("/_media/icons/arrow.png") 0 0 no-repeat;
+ background-size: contain;
+ min-width: 20px;
+ min-height: 20px;
+ max-width: 20px;
+ max-height: 20px;
+}
+
+aside.sidebar div.sidebar-nav ul li >a:not(.section-link)::after {
+ transform: translateY(-50%) rotate(0deg);
+}
+aside.sidebar div.sidebar-nav ul li.active > a::after {
+ transform: translateY(-50%) rotate(90deg);
+ top: 17px;
+}
+
+aside.sidebar div.sidebar-nav ul li>a.section-link::after {
+ content: unset;
+}

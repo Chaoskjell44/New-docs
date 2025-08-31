@@ -1,0 +1,200 @@
+:root {
+ font-family: "Onest", "sans-serif";
+ -webkit-font-feature-settings: "lnum";
+ -moz-font-feature-settings: "lnum";
+ font-feature-settings: "lnum";
+ --font-default: "Onest", "sans-serif";
+ --theme-color: #0099ff;
+ --base-background-color: #181f25;
+ --code-inline-border-radius: 5px;
+
+ /*--blockquote-background: #bea865;
+ --blockquote-font-weight : 500;
+ --blockquote-color : white;
+ --blockquote-border-color: #fe9800 ;
+ --blockquote-padding: 1em;*/
+ 
+}
+
+* {
+ font-family: "Onest", "sans-serif";
+}
+
+a[target="_blank"] {
+ text-decoration: none;
+ color: #318aff;
+ font-weight: 500;
+ transition: all .2s ease;
+}
+a[target="_blank"]:hover {
+ text-decoration: underline;
+ color: #1b69ce;
+}
+
+h1 {
+ font-weight: 700 !important;
+}
+
+blockquote {
+ border-color: rgba(255, 255, 255, .1) !important;
+ padding: 0 !important;
+ padding-left: 15px !important;
+ background: transparent !important;
+}
+
+p.success {
+ display: inherit;
+ align-items: center;
+ border: none !important;
+ border-left: 3px solid #61e248 !important;
+ border-radius: 5px !important;
+ border-top-left-radius: 0 !important;
+ border-bottom-left-radius: 0 !important;
+ background: #22441b !important;
+ font-weight: 500 !important;
+}
+p.success::before {
+ background: url("https://cdn.discordapp.com/emojis/1411004654531248269.webp?size=96") center / 0.875em no-repeat !important;
+ background-size: 125% !important;
+ transform: translateY(2px) !important;
+}
+
+p.tip {
+ display: inherit;
+ align-items: center;
+ border: none !important;
+ border-left: 3px solid #0099ff !important;
+ border-radius: 5px !important;
+ border-top-left-radius: 0 !important;
+ border-bottom-left-radius: 0 !important;
+ background: rgba(54, 125, 206, 0.2) !important;
+ font-weight: 500 !important;
+}
+p.tip::before {
+ background: url("https://cdn.discordapp.com/emojis/1411009563720683582.webp?size=96") center / 0.875em no-repeat !important;
+ background-size: 125% !important;
+ transform: translateY(2px) !important;
+}
+
+p.warn {
+ display: inherit;
+ align-items: center;
+ border: none !important;
+ border-left: 3px solid #ee9613 !important;
+ border-radius: 5px !important;
+ border-top-left-radius: 0 !important;
+ border-bottom-left-radius: 0 !important;
+ background: rgba(206, 135, 54, 0.2) !important;
+ font-weight: 500 !important;
+}
+p.warn::before {
+ background: url("https://cdn.discordapp.com/emojis/1411004604509851658.webp?size=96") center / 0.875em no-repeat !important;
+ background-size: 125% !important;
+ transform: translateY(2px) !important;
+}
+
+p.danger {
+ display: inherit;
+ align-items: center;
+ border: none !important;
+ border-left: 3px solid #ce3636 !important;
+ border-radius: 5px !important;
+ border-top-left-radius: 0 !important;
+ border-bottom-left-radius: 0 !important;
+ background: rgba(206, 54, 54, 0.2) !important;
+ font-weight: 500 !important;
+}
+p.danger::before {
+ background: url("https://cdn.discordapp.com/emojis/1411004606984749156.png?size=96") center / 0.875em no-repeat !important;
+ background-size: 125% !important;
+ transform: translateY(2px) !important;
+}
+
+details {
+ position: relative;
+}
+details summary {
+ user-select: none;
+}
+
+details[open] * {
+ margin-left: 10px;
+}
+details[open] a {
+ margin-left: 0;
+}
+details[open] summary {
+ margin-left: unset;
+}
+
+details[open]::after {
+ position: absolute;
+ left: 0;
+ top: 30px;
+ height: calc(100% - 30px);
+ width: 4px;
+ content: "";
+ background: rgba(255, 255, 255, .2);
+}
+
+div.a-btn-list {
+ display: flex;
+ flex-wrap: wrap;
+ gap: .5rem;
+}
+
+a.btn {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ max-width: max-content;
+ gap: 5px;
+ background: rgba(255, 255, 255, 0.15);
+ border-radius: 5px;
+ padding: 5px 10px;
+ padding-right: 5px;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 500;
+ transition: background .2s ease;
+ margin-top: 5px;
+ margin-bottom: 5x;
+}
+
+a.btn::after {
+ content: "";
+ background: url("/_media/icons/arrow.png") 0 0 no-repeat;
+ background-size: contain;
+ --icon-size: 20px;
+ min-width: var(--icon-size);
+ min-height: var(--icon-size);
+ max-width: var(--icon-size);
+ max-height: var(--icon-size);
+}
+
+a.btn.external {
+ padding-right: 10px;
+ gap: 10px;
+}
+a.btn.external::after {
+ background: url("/_media/icons/external.svg") 0 0 no-repeat;
+ --icon-size: 17px;
+}
+
+a.btn:hover {
+ text-decoration: none;
+ background: rgba(255, 255, 255, 0.25);
+ color: #fff;
+}
+
+img.step {
+ width: 30px;
+}
+
+span.number-replacement {
+ display: none;
+}
+
+div.search-page-tags {
+ display: none;
+}
