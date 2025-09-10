@@ -8,7 +8,7 @@ The following section gives accreditation for 3rd party Softwares and the Artwor
 
 ## Thanks to:
 
-* [Xge](https://xge.dev) and the [Sapphire Bot Team](https://sapph.xyz) for letting us use Parts of their CSS code.
+* [Xge](https://xge.dev) and the [Sapphire Bot Team](https://sapph.xyz) for letting us use parts of their CSS code.
 * [Ellabyss](https://twitch.tv/ellabyss) for making the Ticket shaped Icons for the notices.
 * [Chaoskjell44](https://github.com/chaoskjell44) for remaking the Documentation.
 * **you for using the TIckets V2 Discord Bot. :heart:** 
