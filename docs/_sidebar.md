@@ -1,7 +1,7 @@
 * <div style="margin-top: 20px; letter-spacing: .1em; opacity: .8; font-size: .75em; font-weight: 700;">Documentation</div>
-* [Overview](overview.md)
-* [temp](test.md)
-* [temp](guides/)
+* [Admin Showcase](/docs/_admin/secret/testing/showcase.md)
+* [404 Showcase](/docs/_404.md)
+* [temp]()
 * [temp]()
 * [temp]()
 * <div style="margin-top: 20px; letter-spacing: .1em; opacity: .8; font-size: .75em; font-weight: 700;">Other</div>
