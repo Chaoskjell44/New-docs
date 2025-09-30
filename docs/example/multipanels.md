@@ -3,20 +3,20 @@
 
 Multi-panels are the combination of 2 or more Ticket Panels in a single embed:
 
-<img src="./img/multipanel_example.webp" alt="Tickets V2" style="width:100%"></img>
+<img src="/example/multipanel_example.webp" alt="Tickets V2" aling="middle"></img>
 
 ## Creating A Multi-panel
 In order to create a multi-panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
 Once on your server's main settings page, select `Ticket Panels` in the navigation bar:
 
-[Ticket panel page](../img/panels_navbar.webp)
+<img src="/example/panels_navbar.webp" alt="Ticket panel page" aling="middle"></img>
 
 You'll want to focus on the *right* side of the screen. The left side are settings for individual panels (known as [Ticket Panels](../dashboard/reaction-panels.md).)
 
 Draw your attention to the `New Multi-Panel` card. You'll configure the panel's appearance here:
 
-[Multipanel card](../img/multipanel_card.)
+<img src="/example/multipanel_card.webp" alt="Multipanel card" aling="middle"></img>
 
 ## Panel Title
 The panel title is the bold text at the _top_ of the embed.
@@ -31,7 +31,7 @@ The panel content is the text in the long description of the embed. We recommend
 ## Panel Colour
 This is the colour on the left side of the embed. When clicked, a colour picker will open as shown below:
 
-[Colour picker](./img/colour_picker.webp)
+<img src="/example/colour_picker.webp" alt="colour picker"  aling="middle"></img>
 
 ## Panel Channel
 This is the channel that the multi-panel will be sent in for users to react to. Therefore, this channel should be accessible to your users, and be the only message in the channel to avoid confusion.
