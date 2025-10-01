@@ -4,6 +4,8 @@
 
 ```
 <p class="success">  aaaaa
+or
+s> aaaaa
 ```
 =
 <p class="success">  aaaaa
@@ -12,6 +14,8 @@
 
 ```
 <p class="tip"> aaaa
+or
+i> aaaa
 ```
 =
 <p class="tip">  aaaa
@@ -20,17 +24,25 @@
 
 ```
 <p class="warn"> aaaa
+or
+w> aaaa
 ```
 =
 <p class="warn"> aaaa
 
 ---
 
-```dadsdasd
-<p class="warn danger">  <strong> Please note: </strong> aaaaa
+```
+<p class="warn danger">  aaaaa
+or
+d> aaaaa
 ```
 =
 <p class="warn danger">  <strong> Please note: </strong> aaaaa
+
+---
+
+> all above classes support the other formats located at: [FORMATING](#formating)
 
 ---
 
@@ -85,6 +97,10 @@ Bonjour!
 Ciao!
 
 <!-- tabs:end -->
+
+---
+
+### FORMATING
 
 ---
 
