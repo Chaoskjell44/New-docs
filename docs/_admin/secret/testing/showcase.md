@@ -50,7 +50,7 @@ d> aaaaa
 <div class="a-btn-list">
  <a target="_blank" href="https://tickets.bot" class="btn external">Website</a>
  <a target="_blank" href="https://dashboard.tickets.bot" class="btn external">Dashboard</a>
- <a target="_blank" href="https://tickets.bot/invite" class="btn external">Invite bot</a>
+ <a target="_blank" href="https://invite.tickets.bot" class="btn external">Invite bot</a>
  <a target="_blank" href="https://discord.gg/ticketsbot" class="btn external">Discord server</a>
 </div>
 ```
@@ -58,7 +58,7 @@ d> aaaaa
 <div class="a-btn-list">
  <a target="_blank" href="https://tickets.bot" class="btn external">Website</a>
  <a target="_blank" href="https://dashboard.tickets.bot" class="btn external">Dashboard</a>
- <a target="_blank" href="https://tickets.bot/invite" class="btn external">Invite bot</a>
+ <a target="_blank" href="https://invite.tickets.bot" class="btn external">Invite bot</a>
  <a target="_blank" href="https://discord.gg/ticketsbot" class="btn external">Discord server</a>
 </div>
 
