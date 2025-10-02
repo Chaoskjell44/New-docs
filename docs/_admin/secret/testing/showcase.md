@@ -42,7 +42,7 @@ d> aaaaa
 
 ---
 
-> all above classes support the other formats located at: [FORMATING](#formating)
+> all above classes support the other formats located at: [FORMATING](#formating) <br>Markdown formating is only supported when using the non p class format!
 
 ---
 
